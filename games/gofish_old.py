@@ -18,6 +18,19 @@ class Player:
     self.check_collection()
 
   def check_collection(self):
+    # for k,v in self.hand.items():
+    #   if(v >= 2):
+    #     count = math.floor(v/2)
+    #     self.collection[k] = count
+    #     for _ in range(count):
+    #       self.hand[k] -= count * 2
+    
+    # for k,v in self.collection.items():
+    #   if(self.turn == 'p'):
+    #     print("You have a pair of", k)
+    #   else:
+    #     print("The computer has a pair of", k)
+
     if(self.turn == 'p'):
       print("You have a pair of", k)
     else:
@@ -29,16 +42,14 @@ class Player:
       print("You draw a", drawn)
     else:
       print("The computer draws a card")
-    
-    self.add_card(drawn)
 
-  def add_card(card):
-    if card in self.hand:
-      self.collection.append(card)
-      if self.turn == 'p':
-        print("You have a pair of", card)
+    if drawn in self.hand:
+      # self.hand[drawn] += 1
+      # self.check_collection()
+      self.collection.append(drawn)
     else:
-      self.hand.append(card)
+      # self.hand[drawn] = 1
+      self.hand.append(drawn)
 
   def ask(self):
     demand = ''
@@ -46,6 +57,7 @@ class Player:
       demand = input("Pick a card to ask for: ")
       print("You ask the computer for a", demand)
     else:
+      # hand = list(self.hand)
       random.shuffle(self.hand)
       demand = self.hand[0]
       print("The computer asks you for a", demand)
@@ -53,6 +65,16 @@ class Player:
     return demand
 
   def print(self):
+    # hand = []
+    # collection = []
+    # for k,v in self.hand.items():
+    #   if(v == 1):
+    #     hand.append(k)
+    
+    # for k,v in self.collection.items():
+    #   for _ in range(v):
+    #     collection.append(k)
+
     print("Your hand is: ", *self.hand)
     print("Your collection is: ", *self.collection)
 
@@ -74,7 +96,5 @@ c = Player(computer_hand, 'c')
 p.print()
 demand = p.ask()
 if(demand in c.hand | demand in c.collection):
-  print("The computer has a", demand, "and gives it to you")
-  p.add_card(demand)
 
 
