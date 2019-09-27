@@ -148,7 +148,8 @@ p1 = calculate(p)
 c.print()
 p2 = calculate(c)
 if(p1 > p2):
-  winner ="you"
+  print("You win!")
+elif(p1 == p2):
+  print("It's a draw!")
 else:
-  winner = "the computer"
-print("The winner is ", winner)
+  print("The computer wins!")
