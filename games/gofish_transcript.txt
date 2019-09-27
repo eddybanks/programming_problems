@@ -1,0 +1,168 @@
+$ python gofish.py 
+You have a pair of grouper
+You have a pair of piranha
+The computer has a pair of goldfish
+
+Your hand is: catfish, tuna, sturgeon
+Your collection is: grouper, piranha
+Pick a card to ask for: sturgeon
+You ask the computer for a sturgeon
+Go fish!
+You draw a catfish
+You have a pair of catfish
+
+The computer asks you for a swordfish
+Go fish!
+The computer draws a card
+The computer has a pair of salmon
+
+Your hand is: tuna, sturgeon
+Your collection is: grouper, piranha, catfish
+Pick a card to ask for: tuna
+You ask the computer for a tuna
+Go fish!
+You draw a sturgeon
+You have a pair of sturgeon
+
+The computer asks you for a grouper
+Go fish!
+The computer draws a card
+
+Your hand is: tuna
+Your collection is: grouper, piranha, catfish, sturgeon
+Pick a card to ask for: tuna
+You ask the computer for a tuna
+Go fish!
+You draw a sturgeon
+
+The computer asks you for a trout
+Go fish!
+The computer draws a card
+The computer has a pair of swordfish
+
+Your hand is: tuna, sturgeon
+Your collection is: grouper, piranha, catfish, sturgeon
+Pick a card to ask for: grouper
+Sorry, you don't have any grouper in your hand
+Pick a card to ask for: tunk
+Sorry, you don't have any tunk in your hand
+Pick a card to ask for: tuna
+You ask the computer for a tuna
+Go fish!
+You draw a trout
+
+The computer asks you for a grouper
+Go fish!
+The computer draws a card
+
+Your hand is: tuna, sturgeon, trout
+Your collection is: grouper, piranha, catfish, sturgeon
+Pick a card to ask for: trout
+You ask the computer for a trout
+The computer has a trout and gives it to you
+You have a pair of trout
+
+Your hand is: tuna, sturgeon
+Your collection is: grouper, piranha, catfish, sturgeon, trout
+Pick a card to ask for: sturgeon
+You ask the computer for a sturgeon
+Go fish!
+You draw a piranha
+
+The computer asks you for a salmon
+Go fish!
+The computer draws a card
+The computer has a pair of catfish
+
+Your hand is: tuna, sturgeon, piranha
+Your collection is: grouper, piranha, catfish, sturgeon, trout
+Pick a card to ask for: piranha
+You ask the computer for a piranha
+Go fish!
+You draw a clownfish
+
+The computer asks you for a grouper
+Go fish!
+The computer draws a card
+
+Your hand is: tuna, sturgeon, piranha, clownfish
+Your collection is: grouper, piranha, catfish, sturgeon, trout
+Pick a card to ask for: tuna
+You ask the computer for a tuna
+The computer has a tuna and gives it to you
+You have a pair of tuna
+
+Your hand is: sturgeon, piranha, clownfish
+Your collection is: grouper, piranha, catfish, sturgeon, trout, tuna
+Pick a card to ask for: piranha
+You ask the computer for a piranha
+Go fish!
+You draw a piranha
+You have a pair of piranha
+
+The computer asks you for a grouper
+Go fish!
+The computer draws a card
+
+Your hand is: sturgeon, clownfish
+Your collection is: grouper, piranha, catfish, sturgeon, trout, tuna, piranha
+Pick a card to ask for: sturgeon
+You ask the computer for a sturgeon
+Go fish!
+You draw a goldfish
+
+The computer asks you for a grouper
+Go fish!
+The computer draws a card
+
+Your hand is: sturgeon, clownfish, goldfish
+Your collection is: grouper, piranha, catfish, sturgeon, trout, tuna, piranha
+Pick a card to ask for: goldfish
+You ask the computer for a goldfish
+Go fish!
+You draw a swordfish
+
+The computer asks you for a salmon
+Go fish!
+The computer draws a card
+
+Your hand is: sturgeon, clownfish, goldfish, swordfish
+Your collection is: grouper, piranha, catfish, sturgeon, trout, tuna, piranha
+Pick a card to ask for: swordfish
+You ask the computer for a swordfish
+Go fish!
+You draw a sturgeon
+You have a pair of sturgeon
+
+The computer asks you for a trout
+Go fish!
+The computer draws a card
+
+Your hand is: clownfish, goldfish, swordfish
+Your collection is: grouper, piranha, catfish, sturgeon, trout, tuna, piranha, sturgeon
+Pick a card to ask for: goldfish
+You ask the computer for a goldfish
+The computer has a goldfish and gives it to you
+You have a pair of goldfish
+
+Your hand is: clownfish, swordfish
+Your collection is: grouper, piranha, catfish, sturgeon, trout, tuna, piranha, sturgeon, goldfish
+Pick a card to ask for: swordfish
+You ask the computer for a swordfish
+The computer has a swordfish and gives it to you
+You have a pair of swordfish
+
+Your hand is: clownfish
+Your collection is: grouper, piranha, catfish, sturgeon, trout, tuna, piranha, sturgeon, goldfish, swordfish
+Pick a card to ask for: clownfish
+You ask the computer for a clownfish
+The computer has a clownfish and gives it to you
+You have a pair of clownfish
+
+You are out of cards
+
+Your collection is grouper, piranha, catfish, sturgeon, trout, tuna, piranha, sturgeon, goldfish, swordfish, clownfish
+Your score is 19
+The computer's collection is goldfish, salmon, swordfish, catfish
+The computer's score is 8
+You win

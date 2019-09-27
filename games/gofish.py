@@ -48,6 +48,18 @@ def play_round(player, player2):
       print()
 
 
+def calculate(player):
+  result = 0
+  for i in player.collection:
+    result += cards[i]
+
+  if player.turn == 'p':
+    print("Your score is", result)
+  else:
+    print("The computer's score is", result)
+  
+  return result
+
 class Player:
   def __init__(self, hand, turn):
     self.hand = []
@@ -92,15 +104,6 @@ class Player:
     
     return demand
 
-  def calculate(self):
-    result = len(self.collection)
-    if player.turn == 'p':
-      print("Your score is", result)
-    else:
-      print("The computer's score is", result)
-    
-    return result
-
   def print(self):
     if self.turn == 'p':
       if(len(self.hand) > 0):
@@ -113,6 +116,8 @@ class Player:
       if(len(self.collection) > 0):
         print("The computer's collection is: ", *self.collection)
 
+
+# Program start ----------------------------
 # Dictionary of Cards and their values 
 cards = {'goldfish': 1, 'catfish': 1, 'trout': 1, 'grouper': 1, 'tuna': 2, 'salmon': 2, 'sturgeon': 2, 'piranha': 3, 'swordfish': 4, 'clownfish': -1 }
 
@@ -130,17 +135,18 @@ print()
 player = p
 player2 = c
 
-while(len(deck) > 0):
+while(len(deck) > 0 & (len(player.hand) > 0 | len(player2.hand) > 0)):
   play_round(player, player2)
+  # Swap players for the next round
   tmp = player
   player = player2
   player2 = tmp
 
 
 p.print()
-p1 = p.calculate()
+p1 = calculate(p)
 c.print()
-p2 = c.calculate()
+p2 = calculate(c)
 if(p1 > p2):
   winner ="you"
 else:
